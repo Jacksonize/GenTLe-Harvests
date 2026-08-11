@@ -1,4 +1,4 @@
-# GentLe-harvests
+# GentLe-Harvests
 A GenICam → ASCOM Alpaca Camera Bridge — Startup Guide  This bridge lets any GenICam/GenTL-compatible industrial camera (IDS, FLIR/Teledyne, Basler, Allied Vision, JAI, Matrix Vision, and others) work with astronomy software that speaks ASCOM Alpaca — N.I.N.A., PHD2, CCDciel, and similar tools.
 It does no on-board or SDK-side image processing. Every frame it delivers is the raw sensor data, untouched — no color interpolation, gamma, denoising, or compression. This avoids the kind of slowdown some users report with vendor SDKs that leave image-processing features enabled by default.
 
